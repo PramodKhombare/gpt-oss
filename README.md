@@ -411,6 +411,8 @@ The model was trained to use a python tool to perform calculations and other act
 
 #### Usage
 
+
+
 To enable the python tool, you'll have to place the definition into the `system` message of your harmony formatted prompt. You can either use the `with_python()` method if your tool implements the full interface or modify the definition using `with_tools()`. For example:
 
 ```python
